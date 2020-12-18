@@ -19,7 +19,7 @@ function PostCard({
         <Image
           floated="right"
           size="mini"
-          src="https://moonvillageassociation.org/wp-content/uploads/2018/06/default-profile-picture1.jpg"
+          src="https://www.flaticon.com/svg/static/icons/svg/3885/3885025.svg"
         />
         <Card.Header>{username}</Card.Header>
         <Card.Meta as={Link} to={`/posts/${id}`}>
