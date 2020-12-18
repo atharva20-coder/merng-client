@@ -15,6 +15,7 @@ function Home() {
   } = useQuery(FETCH_POSTS_QUERY);
 
   return (
+    <div class="ui three stackable cards">
     <Grid columns={3}>
       <Grid.Row className="page-title">
         <h1>Recent Posts</h1>
@@ -39,6 +40,7 @@ function Home() {
         )}
       </Grid.Row>
     </Grid>
+</div>
   );
 }
 
