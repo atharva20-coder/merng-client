@@ -29,9 +29,9 @@ function PostForm() {
 
   return (
     <>
+    <div className="ui action input fluid">
       <Form onSubmit={onSubmit}>
         <h2>Create a post:</h2>
-    <div className="ui action input fluid">
         <Form.Field>
           <Form.Input
             placeholder="Hi World!"
@@ -44,8 +44,8 @@ function PostForm() {
             Post
           </Button>
         </Form.Field>
-    </div>
       </Form>
+    </div>
       {error && (
         <div className="ui error message" style={{ marginBottom: 20 }}>
           <ul className="list">
