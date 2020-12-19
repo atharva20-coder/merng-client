@@ -31,8 +31,8 @@ function PostForm() {
     <>
       <Form onSubmit={onSubmit}>
         <h2>Create a post:</h2>
+    <div className="ui action input fluid">
         <Form.Field>
-         <div className="ui action input fluid">
           <Form.Input
             placeholder="Hi World!"
             name="body"
@@ -43,8 +43,8 @@ function PostForm() {
           <Button type="submit" color="teal">
             Post
           </Button>
-         </div>
         </Form.Field>
+    </div>
       </Form>
       {error && (
         <div className="ui error message" style={{ marginBottom: 20 }}>
